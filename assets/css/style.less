@@ -1,0 +1,73 @@
+@footer-btn-height:50px;
+@primary-color:blue;
+
+body {
+  padding-top: 50px;
+  font-family: "Microsoft Yahei";
+
+  h3{
+  	color:@primary-color;
+  }
+}
+.fornet-page{
+	padding: 20px 0 @footer-btn-height+20px 0;
+
+}
+.fornet-footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	.footer-btn{
+		float: left;
+		width: 33.3%;
+		height: @footer-btn-height;
+		border: 1px solid black;
+	}
+}
+#new-order{
+	.geo-link{
+		font-size: 16px;
+	}
+	.lead-branches{
+		width: 100%;
+		overflow-x: scroll;
+		height: 150px;
+		margin-bottom: 20px;
+	}
+
+	ul.branches{
+		padding-left: 0;
+		list-style: none;
+		width: 9999px;
+
+		li.branch{
+			float: left;
+			width: 130px;
+			height: 125px;
+			padding: 10px;
+			font-size: 10px;
+			line-height: 1.4;
+			text-align: center;
+			border: 1px solid #fff;
+			background-color: #f9f9f9;
+			.p-icon{
+				margin-top: 5px;
+				margin-bottom: 10px;
+				font-size: 30px;
+			}
+			.branch-title,
+			.branch-info{
+				display: block;
+				text-align: center;
+				word-wrap: break-word;
+			}
+			.branch-title{
+				color: @primary-color;
+				font-size: 16px;
+				padding-bottom: 5px;
+			}
+		}
+	}
+
+}
