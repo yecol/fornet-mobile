@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"bran",
+				"branch-title"
+			],
+			[
+				"bra",
+				"branch-title"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"ver",
+				"overflow-x"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"pa",
 				"palias"
 			],
@@ -80,14 +120,6 @@
 				"commands"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
-				"back",
-				"background-size"
-			],
-			[
 				"output",
 				"output_album_handle"
 			],
@@ -110,10 +142,6 @@
 			[
 				"cl",
 				"clearfix"
-			],
-			[
-				"mar",
-				"margin-right"
 			],
 			[
 				"alb",
@@ -146,10 +174,6 @@
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"padding",
-				"padding-bottom"
 			],
 			[
 				"so",
@@ -268,10 +292,6 @@
 				"margin-right"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"ma",
 				"margin-bottom"
 			],
@@ -363,13 +383,45 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5719,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.less",
+			"settings":
+			{
+				"buffer_size": 1118,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/base.css",
+			"settings":
+			{
+				"buffer_size": 120989,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 288.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
 			[
 				"error",
 				"SublimeLint: Show All Errors"
@@ -389,10 +441,6 @@
 			[
 				"er",
 				"SublimeLint: Show All Errors"
-			],
-			[
-				"html",
-				"Tidy HTML"
 			],
 			[
 				"remove",
@@ -455,10 +503,6 @@
 				"Tidy HTML"
 			],
 			[
-				"ti",
-				"Tidy HTML"
-			],
-			[
 				"less",
 				"Set Syntax: LESS"
 			],
@@ -475,7 +519,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -545,6 +589,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"th-list",
+			"grid-less",
 			"os.path.exists(path)",
 			"and",
 			"\")\n",
@@ -605,6 +651,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"home",
 			"/res",
 			"\"../res",
 			"../res/",
@@ -619,8 +666,102 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3750,
+								3750
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1671.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 1118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/base.css",
+					"settings":
+					{
+						"buffer_size": 120989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -641,11 +782,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.740356083086,
 			1.0
 		],
 		"rows":

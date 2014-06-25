@@ -1,36 +1,64 @@
-@primary-color:blue;
+@primary-color:#009395;
+@y-color:#099;
+
+
 
 body {
   font-family: "Microsoft Yahei";
-
   h3{
-  	color:@primary-color;
+  	margin-top: 0;
+  }
+  a{
+  	color:@y-color;
+  }
+  .btn{
+  	background-color: #099;
+  	&:hover{
+  		background-color: #097979;
+  	}
   }
 }
+
+.navbar{
+	border-color: @primary-color;
+	background: @primary-color;
+	.container{
+		background: url("../img/logo.png") 18px -4px no-repeat;
+		.navbar-header{
+			height: 50px;
+		}
+	}
+}
+
 .fornet-page{
-	padding: 0 0 20px 0;
+	padding: 0 0 80px 0;
 
 }
 .fornet-footer{
+	@border-color:#999;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid @border-color;
 	background-color: #fff;
 	.footer-btn{
 		float: left;
 		width: 33.3%;
 		position: relative;
 		display: block;
-		padding: 10px 15px;
+		font-weight: bold;
+		padding: 10px 10px;
 		margin-bottom: -1px;
 		text-align: center;
 		&:nth-of-type(2){
-			border-left: 1px solid #ddd;
-			border-right: 1px solid #ddd;
+			border-left: 1px solid @border-color;
+			border-right: 1px solid @border-color;
 		}
 		.badge{
-			// background-color: red;
+			background-color: #c00;
+		}
+		.footer-a{
+			color: black;
 		}
 	}
 }
@@ -41,7 +69,8 @@ body {
 	.lead-branches{
 		width: 100%;
 		overflow-x: scroll;
-		height: 125px;
+		overflow-y: hidden;
+		height: 135px;
 		margin-bottom: 20px;
 	}
 	.lead-kinds{
@@ -62,11 +91,24 @@ body {
 			}
 		}
 	}
+	.row{
+		margin-bottom: 20px;
+		.label-inrow{
+			padding-left: 20px;
+			width: 100%;
+		}
+	}
 
 	ul.branches{
 		padding-left: 0;
 		list-style: none;
 		width: 9999px;
+		border-top: solid 1px #9cc;
+		border-bottom: solid 1px #9cc;
+		
+		a.branch-a{
+			color: black;
+		}
 
 		li.branch{
 			float: left;
@@ -76,8 +118,13 @@ body {
 			font-size: 10px;
 			line-height: 1.4;
 			text-align: center;
-			border: 1px solid #fff;
+			border-left: 1px solid #fff;
+			border-right: 1px solid #fff;
 			background-color: #f9f9f9;
+			&.active{
+				color: @primary-color;
+				background-color: #d1e3e3;
+			}
 			.p-icon{
 				margin-top: 5px;
 				margin-bottom: 10px;
@@ -96,5 +143,40 @@ body {
 			}
 		}
 	}
+}
+
+#modify-address{
+	h4.panel-title{
+		line-height: 1.4;
+	}
+	.panel-address{
+		width: 90%;
+		float: left;
+		display: inline-block;
+	}
+	.panel-address-edit{
+		width: 10%;
+		float: left;
+		text-align: right;
+		display: inline-block;
+	}
+	.mr-20{
+		margin-right: 10px;
+	}
+}
+
+// for retina use
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+.navbar .container{
+	background: url("../img/logo@2x.png") 18px -4px no-repeat;
+	background-size: 204px 50px;
+}
 
 }
