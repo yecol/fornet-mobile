@@ -4,8 +4,84 @@
 		"selected_items":
 		[
 			[
+				"panel",
+				"panel-address"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"cl",
+				"click	click"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"brac",
+				"branches"
+			],
+			[
 				"mar",
-				"margin-bottom"
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"has",
+				"has-error"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"fo",
+				"focus	focus"
+			],
+			[
+				"sub",
+				"submit	submit"
+			],
+			[
+				"over",
+				"overflow-y"
 			],
 			[
 				"padding",
@@ -20,32 +96,12 @@
 				"branch-title"
 			],
 			[
-				"over",
-				"overflow-y"
-			],
-			[
 				"ver",
 				"overflow-x"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"b",
 				"bottom"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"pa",
-				"palias"
 			],
 			[
 				"arti",
@@ -140,10 +196,6 @@
 				"clearfix"
 			],
 			[
-				"cl",
-				"clearfix"
-			],
-			[
 				"alb",
 				"album_list"
 			],
@@ -190,14 +242,6 @@
 			[
 				"bo",
 				"border"
-			],
-			[
-				"bor",
-				"border"
-			],
-			[
-				"add",
-				"add_header"
 			],
 			[
 				"tpl",
@@ -266,10 +310,6 @@
 			[
 				"f",
 				"font-weight"
-			],
-			[
-				"marg",
-				"margin-top"
 			],
 			[
 				"to",
@@ -384,36 +424,48 @@
 	"buffers":
 	[
 		{
+			"file": "address.html",
+			"settings":
+			{
+				"buffer_size": 7868,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5719,
+				"buffer_size": 9152,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/js/bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 55258,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 1118,
+				"buffer_size": 2902,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/css/base.css",
-			"settings":
-			{
-				"buffer_size": 120989,
-				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"tidy",
+				"Tidy HTML"
+			],
 			[
 				"html",
 				"Tidy HTML"
@@ -536,6 +588,14 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/fornet/assets/js/effect.js",
+		"/D/xampp/htdocs/fornet/assets/js/bootstrap.min.js",
+		"/D/xampp/htdocs/fornet/assets/css/style.css",
+		"/D/xampp/htdocs/fornet/assets/css/style.less",
+		"/D/xampp/htdocs/fornet/assets/css/base.css",
+		"/D/xampp/htdocs/fornet/index.html",
+		"/D/xampp/htdocs/yecols.cn/index.html",
+		"/D/xampp/htdocs/levinsu/index.html",
 		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-001.log",
 		"/D/skydrive/GoodReader/spank/lust/新兵航海日记.txt",
 		"/D/xampp/htdocs/yecols.cn/inc/page/blog-index.html",
@@ -589,6 +649,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"collapse",
+			"inline",
 			"th-list",
 			"grid-less",
 			"os.path.exists(path)",
@@ -671,18 +733,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "address.html",
 					"settings":
 					{
-						"buffer_size": 5719,
+						"buffer_size": 7868,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3750,
-								3750
+								7193,
+								7193
 							]
 						],
 						"settings":
@@ -690,10 +752,72 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1671.0,
+						"translation.y": 3883.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 9152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7934,
+								7934
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5416.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/js/bootstrap.js",
+					"settings":
+					{
+						"buffer_size": 55258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17465,
+								17473
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 80.0,
+						"translation.y": 13345.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -705,46 +829,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 1118,
+						"buffer_size": 2902,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								253,
-								253
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "assets/css/base.css",
-					"settings":
-					{
-						"buffer_size": 120989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
+								0,
+								0
 							]
 						],
 						"settings":
@@ -752,9 +849,8 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -793,7 +889,7 @@
 		"cols":
 		[
 			0.0,
-			0.740356083086,
+			0.751919762855,
 			1.0
 		],
 		"rows":
@@ -840,6 +936,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 235.0,
+	"side_bar_width": 269.0,
 	"status_bar_visible": true
 }
