@@ -1,8 +1,6 @@
-@footer-btn-height:50px;
 @primary-color:blue;
 
 body {
-  padding-top: 50px;
   font-family: "Microsoft Yahei";
 
   h3{
@@ -10,19 +8,30 @@ body {
   }
 }
 .fornet-page{
-	padding: 20px 0 @footer-btn-height+20px 0;
+	padding: 0 0 20px 0;
 
 }
 .fornet-footer{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: grey;
+	border-top: 1px solid #ddd;
+	background-color: #fff;
 	.footer-btn{
 		float: left;
 		width: 33.3%;
-		height: @footer-btn-height;
-		border: 1px solid black;
+		position: relative;
+		display: block;
+		padding: 10px 15px;
+		margin-bottom: -1px;
+		text-align: center;
+		&:nth-of-type(2){
+			border-left: 1px solid #ddd;
+			border-right: 1px solid #ddd;
+		}
+		.badge{
+			// background-color: red;
+		}
 	}
 }
 #new-order{
@@ -32,8 +41,26 @@ body {
 	.lead-branches{
 		width: 100%;
 		overflow-x: scroll;
-		height: 150px;
+		height: 125px;
 		margin-bottom: 20px;
+	}
+	.lead-kinds{
+		width: 100%;
+		height: 80px;
+		margin-bottom: 20px;
+		.kind{
+			float: left;
+			width: 25%;
+			height: 40px;
+			padding: 10px;
+			line-height: 1.4;
+			text-align: center;
+			.kind-check{
+				text-align: left;
+				width: 60px;
+				margin: 0 auto;
+			}
+		}
 	}
 
 	ul.branches{
@@ -54,7 +81,7 @@ body {
 			.p-icon{
 				margin-top: 5px;
 				margin-bottom: 10px;
-				font-size: 30px;
+				font-size: 20px;
 			}
 			.branch-title,
 			.branch-info{
@@ -64,7 +91,7 @@ body {
 			}
 			.branch-title{
 				color: @primary-color;
-				font-size: 16px;
+				font-size: 14px;
 				padding-bottom: 5px;
 			}
 		}
