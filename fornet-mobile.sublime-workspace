@@ -427,7 +427,7 @@
 			"file": "address.html",
 			"settings":
 			{
-				"buffer_size": 7868,
+				"buffer_size": 7867,
 				"line_ending": "Windows"
 			}
 		},
@@ -443,8 +443,8 @@
 			"file": "assets/js/bootstrap.js",
 			"settings":
 			{
-				"buffer_size": 55258,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -649,6 +649,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"address-3",
+			"#address-3",
 			"collapse",
 			"inline",
 			"th-list",
@@ -736,15 +738,15 @@
 					"file": "address.html",
 					"settings":
 					{
-						"buffer_size": 7868,
+						"buffer_size": 7867,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7193,
-								7193
+								6863,
+								6863
 							]
 						],
 						"settings":
@@ -756,7 +758,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3883.0,
+						"translation.y": 3569.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -796,15 +798,15 @@
 					"file": "assets/js/bootstrap.js",
 					"settings":
 					{
-						"buffer_size": 55258,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17465,
-								17473
+								0,
+								0
 							]
 						],
 						"settings":
@@ -816,8 +818,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 80.0,
-						"translation.y": 13345.0,
+						"translation.x": 64.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

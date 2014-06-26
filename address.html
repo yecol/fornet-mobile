@@ -31,7 +31,7 @@
 						<div class="panel-heading">
 							<div class="panel-address" id="panel-address-1">
 								<label>
-    							<input type="radio" name="select-address" id="select-address" value="address1"> <span class="username">张锴</span>
+    							<input type="radio" name="select-address" id="select-address" value="address-1"> <span class="username">张锴</span>
   								</label>
   								<span class="mobile">15685741110</span>
 								<br>
@@ -56,7 +56,7 @@
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="address">地址</label>
-									<input type="text" class="form-control" id="address-1" placeholder="地址" value="北京市海淀区学院路39号北京航空航天大学">
+									<input type="text" class="form-control" id="addr-1" placeholder="地址" value="北京市海淀区学院路39号北京航空航天大学">
 								</div>
 								<div class="form-group">
 									<button data-toggle="collapse" data-parent="#accordion" href="#address-1" class="btn btn-primary pull-right change-address">修改地址</button>
@@ -70,7 +70,7 @@
 						<div class="panel-heading">
 							<div class="panel-address" id="panel-address-2">
 								<label>
-    							<input type="radio" name="select-address" id="select-address" value="address2"> <span class="username">张锴</span>
+    							<input type="radio" name="select-address" id="select-address" value="address-2"> <span class="username">张锴</span>
   								</label>
   								<span class="mobile">15685741110</span>
 								<br>
@@ -95,7 +95,7 @@
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="address">地址</label>
-									<input type="text" class="form-control" id="address-2" placeholder="地址" value="北京市海淀区学院路39号北京航空航天大学">
+									<input type="text" class="form-control" id="addr-2" placeholder="地址" value="北京市海淀区学院路39号北京航空航天大学">
 								</div>
 								<div class="form-group">
 									<button data-toggle="collapse" data-parent="#accordion" href="#address-2" class="btn btn-primary pull-right change-address">修改地址</button>
@@ -134,7 +134,7 @@
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="address">地址</label>
-									<input type="text" class="form-control" id="address-3" placeholder="地址" value="北京市海淀区学院路39号北京航空航天大学">
+									<input type="text" class="form-control" id="addr-3" placeholder="地址" value="北京市海淀区学院路39号北京航空航天大学">
 								</div>
 								<div class="form-group">
 									<button data-toggle="collapse" data-parent="#accordion" href="#address-3" class="btn btn-primary pull-right change-address">修改地址</button>
@@ -155,7 +155,7 @@
 				</a>
 			</div>
 			<div class="footer-btn">
-				<a class="footer-a" href="/">
+				<a class="footer-a" href="index.html">
 					我的主页
 				</a>
 			</div>
@@ -184,7 +184,7 @@ $(document).ready(function() {
 
 		var username = $('#username'+index).val();
 		var mobile = $('#mobile'+index).val();
-		var address = $('#address'+index).val();
+		var address = $('#addr'+index).val();
 		// TODO: send to sever
 
 		$('#panel-address'+index+' .username').html(username);
