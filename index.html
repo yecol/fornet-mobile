@@ -193,20 +193,15 @@
 
 					<div class="form-group">
 						<label for="username">收衣地址</label>
-						<p>张悦然</p>
-						<p>18652452414</p>
-						<p>北京市海淀区学院路39号北京航空航天大学新主楼G左518号</p>
+						<div class="highlight">
+							<p class="addrg">
+							<span id="username">张悦然</span>
+							<span id="mobile">18652452414</span></p>
+							<p class="addrg" id="address">北京市海淀区学院路39号北京航空航天大学新主楼G左518号</p>
+							<p class="addrg-a"><a href="address.html" class="btn btn-default">选用其他地址</a>
+							</p>
+						</div>
 					</div>
-					<div class="form-group">
-						<label class="sr-only" for="mobile">电话</label>
-						<input type="text" class="form-control" id="mobile" placeholder="联系电话">
-					</div>
-					<div class="form-group">
-						<label class="sr-only" for="address">地址</label>
-						<input type="text" class="form-control" id="address" placeholder="地址">
-					</div>
-					
-					
 					<button type="submit" class="btn btn-primary btn-lg btn-block">下单</button>
 				</form>
 			</div><!-- .container -->
@@ -236,26 +231,6 @@
 $(document).ready(function(){
 	// resize the ul
 	$("ul.branches").css('width', 130*$("li.branch").size());
-	// submit check
-	$("#create-form").submit(function(e) {
-		if($.trim($("#username").val()).length==0){
-			$("#username").focus();
-			$("#username").parent(".form-group").addClass('has-error');
-		}
-		else if($.trim($("#mobile").val()).length==0){
-			$("#mobile").focus();
-			$("#mobile").parent(".form-group").addClass('has-error');
-		}
-		else if($.trim($("#address").val()).length==0){
-			$("#address").focus();
-			$("#address").parent(".form-group").addClass('has-error');
-		}
-		return false;
-	});
-	// toggle error indicator
-	$("input").keyup(function(event) {
-		$(this).parent(".form-group").removeClass('has-error');
-	});
 	// select a branch
 	$("a.branch-a").click(function(event) {
 		/* Act on the event */

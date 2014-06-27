@@ -143,6 +143,43 @@
 							</div>
 						</div>
 					</div>
+
+					<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-address" id="panel-address-new">
+								<label>
+    							新建地址
+  								</label>
+							</div>
+							<div class="panel-address-edit pull-right">
+								<a data-toggle="collapse" data-parent="#accordion" href="#address-new">
+									<span class="glyphicon glyphicon-plus"></span>
+								</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div id="address-new" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="form-group">
+									<label class="sr-only" for="username">姓名</label>
+									<input type="text" class="form-control" id="username-new" placeholder="姓名">
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="mobile">电话</label>
+									<input type="text" class="form-control" id="mobile-new" placeholder="联系电话">
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="address">地址</label>
+									<input type="text" class="form-control" id="addr-new" placeholder="地址">
+								</div>
+								<div class="form-group">
+									<button data-toggle="collapse" data-parent="#accordion" href="#address-new" class="btn btn-primary pull-right add-address">保存</button>
+									<button data-toggle="collapse" data-parent="#accordion" href="#address-new" class="btn btn-default pull-right mr-20">取消</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<button type="submit" class="btn btn-primary btn-lg btn-block">确认</button>
 			</div><!-- .container -->
@@ -191,6 +228,10 @@ $(document).ready(function() {
 		$('#panel-address'+index+' .mobile').html(mobile);
 		$('#panel-address'+index+' .address').html(address);
 
+	});
+	// new address
+	$(".add-address").click(function(event) {
+		/* Act on the event */
 	});
 });
 	</script>

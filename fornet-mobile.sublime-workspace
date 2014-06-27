@@ -435,8 +435,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9152,
+				"buffer_size": 8443,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/downloads/bootstrap-3.1.1/bootstrap-3.1.1/docs/assets/css/docs.css",
+			"settings":
+			{
+				"buffer_size": 27836,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -451,7 +459,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 2902,
+				"buffer_size": 3003,
 				"line_ending": "Windows"
 			}
 		}
@@ -649,6 +657,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bs-example",
 			"address-3",
 			"#address-3",
 			"collapse",
@@ -730,7 +739,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -745,8 +754,8 @@
 						"selection":
 						[
 							[
-								6863,
-								6863
+								4466,
+								4466
 							]
 						],
 						"settings":
@@ -758,7 +767,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3569.0,
+						"translation.y": 2865.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -768,15 +777,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 9152,
+						"buffer_size": 8443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7934,
-								7934
+								6443,
+								6443
 							]
 						],
 						"settings":
@@ -788,13 +797,44 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5416.0,
+						"translation.y": 4884.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "/D/downloads/bootstrap-3.1.1/bootstrap-3.1.1/docs/assets/css/docs.css",
+					"settings":
+					{
+						"buffer_size": 27836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17982,
+								17992
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 19461.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "assets/js/bootstrap.js",
 					"settings":
 					{
@@ -831,19 +871,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 2902,
+						"buffer_size": 3003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1306,
+								1306
 							]
 						],
 						"settings":
@@ -855,7 +895,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1259.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -891,7 +931,7 @@
 		"cols":
 		[
 			0.0,
-			0.751919762855,
+			0.535687176544,
 			1.0
 		],
 		"rows":
