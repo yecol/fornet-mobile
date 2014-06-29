@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"help",
+				"help-item"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
 				"panel",
 				"panel-address"
 			],
@@ -36,16 +52,8 @@
 				"branches"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"bor",
 				"border-top"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"add",
@@ -408,10 +416,6 @@
 				"max-height"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
 				"rea",
 				"ready	$(document).ready"
 			],
@@ -424,52 +428,32 @@
 	"buffers":
 	[
 		{
-			"file": "address.html",
+			"file": "help.html",
 			"settings":
 			{
-				"buffer_size": 7867,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 8443,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/downloads/bootstrap-3.1.1/bootstrap-3.1.1/docs/assets/css/docs.css",
-			"settings":
-			{
-				"buffer_size": 27836,
+				"buffer_size": 2878,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/js/bootstrap.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 3003,
-				"line_ending": "Windows"
+				"buffer_size": 6700,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 147.0,
 		"selected_items":
 		[
+			[
+				"error",
+				"SublimeLint: Show All Errors"
+			],
 			[
 				"tidy",
 				"Tidy HTML"
@@ -481,10 +465,6 @@
 			[
 				"ti",
 				"Tidy HTML"
-			],
-			[
-				"error",
-				"SublimeLint: Show All Errors"
 			],
 			[
 				"err",
@@ -579,7 +559,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 512.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -596,6 +576,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/fornet-mobile/assets/css/style.css",
+		"/Users/Yecol/Workspace/git-repo/fornet-mobile/assets/js/bootstrap.js",
+		"/D/downloads/bootstrap-3.1.1/bootstrap-3.1.1/docs/assets/css/docs.css",
+		"/Users/Yecol/Workspace/git-repo/fornet-mobile/address.html",
+		"/Users/Yecol/Workspace/git-repo/fornet-mobile/index.html",
 		"/D/xampp/htdocs/fornet/assets/js/effect.js",
 		"/D/xampp/htdocs/fornet/assets/js/bootstrap.min.js",
 		"/D/xampp/htdocs/fornet/assets/css/style.css",
@@ -657,6 +642,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"draw",
+			"2X",
+			"draw",
 			"bs-example",
 			"address-3",
 			"#address-3",
@@ -739,23 +727,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "address.html",
+					"file": "help.html",
 					"settings":
 					{
-						"buffer_size": 7867,
+						"buffer_size": 2878,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4466,
-								4466
+								1936,
+								1936
 							]
 						],
 						"settings":
@@ -767,99 +755,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2865.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 8443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6443,
-								6443
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4884.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/downloads/bootstrap-3.1.1/bootstrap-3.1.1/docs/assets/css/docs.css",
-					"settings":
-					{
-						"buffer_size": 27836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17982,
-								17992
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 19461.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/js/bootstrap.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 64.0,
-						"translation.y": 0.0,
+						"translation.y": 718.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -871,19 +767,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 3003,
+						"buffer_size": 6700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1306,
-								1306
+								6379,
+								6379
 							]
 						],
 						"settings":
@@ -895,7 +791,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1259.0,
+						"translation.y": 5831.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
