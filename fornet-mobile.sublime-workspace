@@ -431,7 +431,7 @@
 			"file": "help.html",
 			"settings":
 			{
-				"buffer_size": 2878,
+				"buffer_size": 2955,
 				"line_ending": "Unix"
 			}
 		},
@@ -439,7 +439,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 6700,
+				"buffer_size": 6848,
 				"line_ending": "Unix"
 			}
 		}
@@ -642,6 +642,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"draw.jpg",
 			"draw",
 			"2X",
 			"draw",
@@ -707,7 +708,7 @@
 			"text-align: center;\n"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -735,15 +736,15 @@
 					"file": "help.html",
 					"settings":
 					{
-						"buffer_size": 2878,
+						"buffer_size": 2955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1936,
-								1936
+								0,
+								0
 							]
 						],
 						"settings":
@@ -771,15 +772,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 6700,
+						"buffer_size": 6848,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6379,
-								6379
+								2214,
+								2214
 							]
 						],
 						"settings":
@@ -791,7 +792,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5831.0,
+						"translation.y": 1746.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
