@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"c",
+				"click	click"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
 				"help",
 				"help-item"
 			],
@@ -104,10 +124,6 @@
 				"branch-title"
 			],
 			[
-				"ver",
-				"overflow-x"
-			],
-			[
 				"b",
 				"bottom"
 			],
@@ -198,10 +214,6 @@
 			[
 				"photo",
 				"photo_file"
-			],
-			[
-				"c",
-				"clearfix"
 			],
 			[
 				"alb",
@@ -320,10 +332,6 @@
 				"font-weight"
 			],
 			[
-				"to",
-				"toggle	.toggle() (show/hide)"
-			],
-			[
 				"backr",
 				"background-position"
 			],
@@ -334,10 +342,6 @@
 			[
 				"margi",
 				"margin-left"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"ma",
@@ -431,7 +435,7 @@
 			"file": "help.html",
 			"settings":
 			{
-				"buffer_size": 2955,
+				"buffer_size": 2759,
 				"line_ending": "Unix"
 			}
 		},
@@ -439,7 +443,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 6848,
+				"buffer_size": 7140,
 				"line_ending": "Unix"
 			}
 		}
@@ -576,6 +580,7 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/fornet/index.html",
 		"/Users/Yecol/Workspace/git-repo/fornet-mobile/assets/css/style.css",
 		"/Users/Yecol/Workspace/git-repo/fornet-mobile/assets/js/bootstrap.js",
 		"/D/downloads/bootstrap-3.1.1/bootstrap-3.1.1/docs/assets/css/docs.css",
@@ -586,7 +591,6 @@
 		"/D/xampp/htdocs/fornet/assets/css/style.css",
 		"/D/xampp/htdocs/fornet/assets/css/style.less",
 		"/D/xampp/htdocs/fornet/assets/css/base.css",
-		"/D/xampp/htdocs/fornet/index.html",
 		"/D/xampp/htdocs/yecols.cn/index.html",
 		"/D/xampp/htdocs/levinsu/index.html",
 		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-001.log",
@@ -632,7 +636,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
 		]
@@ -708,7 +712,7 @@
 			"text-align: center;\n"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -736,15 +740,15 @@
 					"file": "help.html",
 					"settings":
 					{
-						"buffer_size": 2955,
+						"buffer_size": 2759,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1117,
+								1117
 							]
 						],
 						"settings":
@@ -756,7 +760,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 718.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -772,15 +776,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 6848,
+						"buffer_size": 7140,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2214,
-								2214
+								1787,
+								1787
 							]
 						],
 						"settings":
@@ -792,7 +796,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1746.0,
+						"translation.y": 2059.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -828,7 +832,7 @@
 		"cols":
 		[
 			0.0,
-			0.535687176544,
+			0.564796765585,
 			1.0
 		],
 		"rows":
@@ -875,6 +879,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 269.0,
+	"side_bar_width": 168.0,
 	"status_bar_visible": true
 }

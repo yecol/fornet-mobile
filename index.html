@@ -121,32 +121,12 @@
 						</div>
 						<div class="kind">
 							<div class="checkbox kind-check">
-								<label><input type="checkbox"> 西服</label>
+								<label><input type="checkbox"> 西服/服装</label>
 							</div>
 						</div>
 						<div class="kind">
 							<div class="checkbox kind-check">
 								<label><input type="checkbox"> 羽绒</label>
-							</div>
-						</div>
-						<div class="kind">
-							<div class="checkbox kind-check">
-								<label><input type="checkbox"> 羊毛</label>
-							</div>
-						</div>
-						<div class="kind">
-							<div class="checkbox kind-check">
-								<label><input type="checkbox"> 床件</label>
-							</div>
-						</div>
-						<div class="kind">
-							<div class="checkbox kind-check">
-								<label><input type="checkbox"> 护理</label>
-							</div>
-						</div>
-						<div class="kind">
-							<div class="checkbox kind-check">
-								<label><input type="checkbox"> 其他</label>
 							</div>
 						</div>
 					</div>
@@ -202,6 +182,15 @@
 							</p>
 						</div>
 					</div>
+
+					<div class="form-group">
+						<label for="pieces">其他选项</label>
+						<p>
+						<a href="#" class="op btn btn-default">自取</a>
+						<a href="#" class="op btn btn-default">送货</a>
+						<a href="#" class="op btn btn-default">加急</a>
+					</div>
+
 					<button type="submit" class="btn btn-primary btn-lg btn-block">下单</button>
 				</form>
 			</div><!-- .container -->
@@ -213,13 +202,13 @@
 						订单管理 <span class="badge">!</span>
 					</a>
 				</div>
-				<div class="footer-btn">
-					<a class="footer-a">
-						我的主页
+				<div class="footer-btn icon-btn">
+					<a href="index.html"  class="footer-b">
+						<span class="glyphicon glyphicon-home p-icon"></span>
 					</a>
 				</div>
 				<div class="footer-btn">
-					<a class="footer-a">
+					<a href="index.html" class="footer-a">
 						小福助手
 					</a>
 				</div>
@@ -236,6 +225,10 @@ $(document).ready(function(){
 		/* Act on the event */
 		$("li.active").removeClass('active');
 		$(this).children('li').addClass('active');
+		event.preventDefault();
+	});
+	$(".op").click(function(event) {
+		$(this).toggleClass('active');
 		event.preventDefault();
 	});
 });
